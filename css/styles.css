@@ -1,4 +1,6 @@
 body {
+  font-family: 'Roboto', sans-serif;
+  color: #757575;
 }
 
 .link {
@@ -112,7 +114,6 @@ body {
 
 .description {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -143,7 +144,6 @@ body {
 
 .team-position {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
@@ -164,15 +164,34 @@ body {
   background-color: #2f303a;
 }
 
+.google-adress {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #ffff;
+  background-color: #2f303a;
+}
+
+.google-adress:focus,
+.google-adress:hover {
+  color: #2196f3;
+}
+
 .adress {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
+}
+
+.adress:focus,
+.adress:hover {
+  color: #2196f3;
 }
 
 /* ====== page2 main===== */
@@ -212,7 +231,6 @@ body {
 
 .form-services {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 188% */
