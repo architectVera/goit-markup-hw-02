@@ -11,7 +11,7 @@ body {
   list-style: none;
 }
 
-.logo-first {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -20,7 +20,7 @@ body {
   color: #2196f3;
 }
 
-.logo-last-header {
+.accent {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -29,7 +29,7 @@ body {
   color: #212121;
 }
 
-.nav {
+.nav-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -37,15 +37,26 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.nav-link {
-  color: #212121;
-}
 .nav-link:focus,
 .nav-link:hover {
   color: #2196f3;
 }
 
+.nav-light {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
 .mail {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #757575;
 }
 .mail:focus,
@@ -77,8 +88,6 @@ body {
 }
 
 .center {
-  display: flex;
-  justify-content: center;
   background-color: #2f303a;
 }
 
@@ -154,7 +163,11 @@ body {
 
 /* ====== footer=======*/
 
-.logo-last-footer {
+.back {
+  background-color: #2f303a;
+}
+
+.accent-white {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -166,6 +179,7 @@ body {
 
 .google-adress {
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
@@ -182,6 +196,7 @@ body {
 .adress {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
