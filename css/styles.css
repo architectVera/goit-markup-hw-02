@@ -124,6 +124,7 @@ body {
 .description {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-transform: none;
@@ -153,6 +154,7 @@ body {
 
 .team-position {
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
@@ -227,11 +229,17 @@ body {
 
 .portpholio-btn:focus,
 .portpholio-btn:hover {
+  color: #ffffff;
   background: #2196f3;
   /* shadow-middle */
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
+
+.current {
+  color: #ffffff;
+  background: #2196f3;
 }
 
 .services {
@@ -246,9 +254,26 @@ body {
 
 .form-services {
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+/*Клас скриття заголовків*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
